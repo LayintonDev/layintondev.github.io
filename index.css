@@ -1,0 +1,131 @@
+body{
+    margin-left: 2px;
+    padding-left: 2px;
+}
+.main{
+    padding-left: 2px;
+    margin-left: 2px;
+}
+.brand{
+    float: left;
+}
+.search{
+    float: right;
+}
+.demoCatalogue{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.demoCataloqueSpan{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#btn-whatsaap{
+    padding-left: 20px;
+    height: 40px;
+}
+.chat-button{
+    padding-left: 20px;
+    height: 50px;
+}
+.search-button{
+    padding-right: 20px;
+    display: inline;
+}
+.demoContainer{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#top{
+    background-color: white;
+    
+}
+#buttom{
+    background-color: white;
+}
+.catalogueDetails{
+    padding-left: 20px;
+    max-width:300px;
+}
+#all{
+display: inline;
+padding-right: 5px;
+}
+#inStock{
+display: inline;
+padding-right: 5px
+}
+#onSales{
+display: inline;
+padding-right: 5px
+}
+#newArrivals{
+display: inline;
+padding-right: 5px
+}
+.container{
+    display: inline;
+    padding-left: 20px;
+}
+#showImage{
+   width: 249px;
+   height: 250px;
+}
+.siteContents{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 20px;
+    padding-left: 5px;
+    
+}
+.containers{
+    padding-left: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 5px;
+}
+.catalogueNav{
+    
+    text-align: center;
+    margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.catalogueNav li{
+display: inline-block;
+font-size: 15px;
+  padding: 10px;
+}
+#footerImage{
+width: 70px;
+height: 70px;
+}
+.myFooter{
+    color: white;
+}
+a{
+    color: slategray;
+    font-weight: bolder;
+    font-size: 20px;
+}
+#coUses{
+    font-weight: lighter;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#quickSell{
+    font-weight: bolder;
+    font-size: 35px;
+}
+#h5{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 400;
+}
+.footer{
+    margin-bottom: 50px;
+}

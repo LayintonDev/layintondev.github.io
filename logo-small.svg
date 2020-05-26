@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 603 603" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient id="a" cx="49.689%" r="55.056%">
+<stop stop-color="#2EC853" offset="0"/>
+<stop stop-color="#1B7230" offset="1"/>
+</radialGradient>
+<circle id="d" cx="276.49" cy="276.49" r="276.49"/>
+<linearGradient id="e" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#fff" stop-opacity=".5" offset="0"/>
+<stop stop-opacity=".5" offset="1"/>
+</linearGradient>
+<rect id="c" x="188" y="255" width="60.24" height="65.3"/>
+<rect id="b" x="271" y="206" width="106.8" height="113.74"/>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<g transform="translate(25 25)">
+<use fill="url(#a)" fill-rule="evenodd" xlink:href="#d"/>
+<circle cx="276.49" cy="276.49" r="288.99" stroke="#fff" stroke-width="25"/>
+<path d="m120 202h-38.5" fill="url(#e)" stroke="#fff" stroke-linecap="square" stroke-width="20"/>
+<path d="m123.5 232h-66.5" stroke="#fff" stroke-linecap="square" stroke-width="20"/>
+<path d="m143 159h304.29c9.3888 0 17 7.6112 17 17 0 1.9714-0.34292 3.9279-1.0134 5.7818l-53.952 149.18c-2.435 6.7327-8.8271 11.218-15.987 11.218h-228.03c-8.418 0-15.568-6.1607-16.813-14.486l-22.304-149.18c-1.3883-9.2856 5.0137-17.939 14.299-19.327 0.83215-0.12442 1.6724-0.18688 2.5138-0.18688z" stroke="#fff" stroke-width="18"/>
+<circle cx="233.61" cy="414.61" r="41.61" fill="#fff"/>
+<circle cx="333.61" cy="414.61" r="41.61" fill="#fff"/>
+<use fill="#660B0B" fill-rule="evenodd" xlink:href="#c"/>
+<rect x="182" y="249" width="72.24" height="77.3" stroke="#F31B1B" stroke-width="12"/>
+<use fill="#19125C" fill-rule="evenodd" xlink:href="#b"/>
+<rect x="265.5" y="200.5" width="117.8" height="124.74" stroke="#8891EB" stroke-width="11"/>
+</g>
+</g>
+</svg>
