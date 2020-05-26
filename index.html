@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="e-commerce">
+    <!-- <meta http-equiv="refresh" content="0; url=#"> -->
+    <title>This is a demo page</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="fontawesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.js"></script>
+</head>
+<body style="background-color: #121a20;">
+  <div class="container-flex"  style="background-color: #1d2831;">
+    <div id="main" class="container-flex">
+    <nav class="navbar  navbar-light" >
+        <a class="navbar-brand" style="color: white; font-family:sans-serif">LAYINTONDEV</a>
+        <div class="navigation">
+            <div class="search-button " style="color: white;">
+                <button style="background-color:  #1d2831; border: none; width: 20px; margin-right: 10px;" onclick="search()">
+                <svg class="bi bi-search" width="50" height="50" viewBox="0 0  40 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                    <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 011.415 0l3.85 3.85a1 1 0 01-1.414 1.415l-3.85-3.85a1 1 0 010-1.415z" clip-rule="evenodd"/>
+                    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 100-11 5.5 5.5 0 000 11zM13 6.5a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z" clip-rule="evenodd"/>
+                  </svg>
+                </button>
+              </div>
+                <div class= "m-6hat-button" style="display: inline; margin-left: 10px;">
+                    <button type="button" id="btn-whatsaap" class="btn btn-primary"><img src="https://img.icons8.com/material-outlined/24/000000/whatsapp.png"/> CHAT</button>
+                </div>
+            
+            </div>
+     </nav>
+    </div>
+ <!- the end of the navbar -->
+     
+    
+   <div class="container-flex">
+       <div class="second-nav"> </div>
+       <div class="cataloque">
+          
+        <div class="pos-f-t" >
+            <h3 id = "demoCataloque" style="margin-left: 15px;">Demo Catalogue</h3>
+            <div class="myCollapse" style="background-color:#1d2831 ;">
+      
+              <div class="demoContainer" >
+                <span class="demoCataloqueSpan">10 items</span>
+            
+            </div>
+            </div>
+            <!-- <nav class="navbar navbar-dark" style="background-color: #2a333b";>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </nav> -->
+          </div>
+       </div>
+   
+   <div class="catalogueDetails">
+    <hr id="top" style="color: white;">
+    <h6 style="color: white;">This is a demo catalogue</h6>
+    <hr id="buttom">
+    </div>
+    
+    <div class="tags-container" style="position: relative;">
+        
+      <ul class="catalogueNav">
+        <li><button class="btn btn-outline-secondary">All</button></li>
+        <li><button class="btn btn-outline-secondary">In stock</button></li>
+        <li><button class="btn btn-outline-secondary">On sale</button></li>
+        <li><button class="btn btn-outline-secondary">Arrival</button></li>
+
+      </ul>
+    </div>
+  </div>
+   
+    
+    
+<div class="siteContents" style="margin:inherit;">
+  <!--beginning of row one-->
+  <div class="containers" style="width: 100%;">
+        <div class="row">
+          
+          <div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+              <div id="showCase1"  style="background-color: white;">
+               
+                <a href="#">
+                  <img id="showImage" class="rounded" src="cream.jpg" alt="cream">
+              
+              <p >
+                <h6 style="margin-left: 8px;">Product 1</h6>
+                <h5 style="margin-left: 8px;"><span>#300 </span>  </h5>
+              </p>
+              
+            </a>
+            <div>
+              <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+            </div>
+           
+            </div>
+          
+        </div>
+      
+
+        <div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+          <div id="showCase1"  style="background-color: white;">
+           
+            <a href="#">
+              <img id="showImage" class="rounded" src="zappos.jpg" alt="cream">
+          
+          <p >
+            <h6 style="margin-left: 8px;">Product 1</h6>
+            <h5 style="margin-left: 8px;">#300</h5>
+          </p>
+          
+        </a>
+        <div>
+          <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+        </div>
+       
+        </div>
+      
+    </div>
+       
+    <div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+      <div id="showCase1"  style="background-color: white;">
+       
+        <a href="#">
+          <img id="showImage" class="rounded" src="nikeShoe.jpg" alt="cream">
+      
+      <p >
+        <h6 style="margin-left: 8px;">Product 1</h6>
+        <h5 style="margin-left: 8px;">#300</h5>
+      </p>
+      
+    </a>
+    <div>
+      <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+    </div>
+   
+    </div>
+  
+</div>
+        
+<div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+  <div id="showCase1"  style="background-color: white;">
+   
+    <a href="#">
+      <img id="showImage" class="rounded" src="fizik.jpg" alt="cream">
+  
+  <p >
+    <h6 style="margin-left: 8px;">Product 1</h6>
+    <h5 style="margin-left: 8px;">#300</h5>
+  </p>
+  
+</a>
+<div>
+  <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+</div>
+
+</div>
+
+</div>
+
+    
+<div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+  <div id="showCase1"  style="background-color: white;">
+   
+    <a href="#">
+      <img id="showImage" class="rounded" src="fila.jpg" alt="cream">
+  
+  <p >
+    <h6 style="margin-left: 8px;">Product 1</h6>
+    <h5 style="margin-left: 8px;">#300</h5>
+  </p>
+  
+</a>
+<div>
+  <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+</div>
+
+</div>
+
+</div>
+
+     </div> 
+       
+      </div>
+
+<!-- begining of second row -->
+
+<div class="containers" >
+  <div class="row">
+    <div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+      <div id="showCase1"  style="background-color: white;">
+       
+        <a href="#">
+      <img id="showImage" class="rounded" src="cream.jpg" alt="cream">
+      
+      <p >
+        <h6 style="margin-left: 8px;">Product 1</h6>
+        <h5 style="margin-left: 8px;">#300</h5>
+      </p>
+      
+    </a>
+    <div>
+      <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+    </div>
+   
+    </div>
+  
+</div>
+
+
+<div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+  <div id="showCase1"  style="background-color: white;">
+   
+    <a href="#">
+      <img id="showImage" class="rounded" src="zappos.jpg" alt="cream">
+  
+  <p >
+    <h6 style="margin-left: 8px;">Product 1</h6>
+    <h5 style="margin-left: 8px;">#300</h5>
+  </p>
+  
+</a>
+<div>
+  <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+</div>
+
+</div>
+
+</div>
+
+
+
+<div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+  <div id="showCase1"  style="background-color: white;">
+   
+    <a href="#">
+      <img id="showImage" class="rounded" src="nikeShoe.jpg" alt="cream">
+  
+  <p >
+    <h6 style="margin-left: 8px;">Product 1</h6>
+    <h5 style="margin-left: 8px;">#300</h5>
+  </p>
+  
+</a>
+<div>
+  <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+</div>
+
+</div>
+
+</div>
+
+
+<div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+  <div id="showCase1"  style="background-color: white;">
+   
+    <a href="#">
+      <img id="showImage" class="rounded" src="fizik.jpg" alt="cream">
+  
+  <p >
+    <h6 style="margin-left: 8px;">Product 1</h6>
+    <h5 style="margin-left: 8px;">#300</h5>
+  </p>
+  
+</a>
+<div>
+  <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+</div>
+
+</div>
+</div>
+
+<div class="col-xm-6-sm-6" style="margin-right: 10px; float: left ;">
+            
+  <div id="showCase1"  style="background-color: white;">
+   
+    <a href="#">
+      <img id="showImage" class="rounded" src="fila.jpg" alt="cream">
+  
+  <p >
+    <h6 style="margin-left: 8px;">Product 1</h6>
+    <h5 style="margin-left: 8px;">#300</h5>
+  </p>
+  
+</a>
+<div>
+  <p><button class="btn btn-primary  btn-block"> <h5>Add to List</h5></button></p>
+</div>
+
+</div>
+  
+</div>
+
+</div>
+</div>
+</div>
+<br>
+
+<div class="footer"> 
+  <div class="myFooter">
+<center>
+  <img id="footerImage" src="logo-small.svg" alt="" >
+  
+  <p><h4 id="coUses"><em>LayintonDev Uses</em> </h4></p>
+  <p><h1 id="quickSell">QuickSell</h1></p>
+   <p><h5 id="h5">to create private and secure</h5></p> 
+  <p><h5 id="h5">marketing catalogues</h5></p>
+  <p><h5 id="h5">from their phone</h5></p>
+  <button class="btn btn-primary btn-lg" ><h6 id="download">DOWNLOAD NOW</h6></button>
+
+  
+</center>
+  </div>
+</div>
+</div>
+</body>
+<script src="index.js"></script>
+
+</html>
